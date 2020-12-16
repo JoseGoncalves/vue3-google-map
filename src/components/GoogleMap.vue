@@ -142,8 +142,10 @@ export default defineComponent({
     };
 
     onBeforeUnmount(() => {
+      console.log('vue3-gmap: onBeforeUnmount');
       if (map.value) {
         api.value?.event.clearInstanceListeners(map.value);
+        console.log('vue3-gmap: unload');
         unload('places');
       }
     });
