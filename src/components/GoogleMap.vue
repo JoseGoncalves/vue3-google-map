@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType, ref, onBeforeUnmount, watch, toRef } from 'vue';
-import { loadNow } from 'connect-google-maps';
+import { loadNow, unload } from 'connect-google-maps';
 import { useMap } from '../composables/index';
 import {
   IMapOptions,
@@ -144,6 +144,7 @@ export default defineComponent({
     onBeforeUnmount(() => {
       if (map.value) {
         api.value?.event.clearInstanceListeners(map.value);
+        unload('places');
       }
     });
 
