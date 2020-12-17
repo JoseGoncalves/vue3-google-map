@@ -1565,7 +1565,7 @@ concat-stream@^1.5.0:
 
 connect-google-maps@JoseGoncalves/connect-google-maps#dynamic-localization:
   version "0.4.0"
-  resolved "https://codeload.github.com/JoseGoncalves/connect-google-maps/tar.gz/52b7ccd4492dd8fe8f651051b1ec89ad0b7cf457"
+  resolved "https://codeload.github.com/JoseGoncalves/connect-google-maps/tar.gz/811b655ded275d75b84d22b812db05a1ff2fa959"
 
 console-browserify@^1.1.0:
   version "1.2.0"
