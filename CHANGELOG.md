@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.25.1](https://github.com/inocan-group/vue3-google-map/compare/v0.25.0...v0.25.1) (2025-11-05)
+
+
+### Bug Fixes
+
+* prevent InfoWindow click listener setup race condition ([ceff802](https://github.com/inocan-group/vue3-google-map/commit/ceff80209e9d480d88cd187e946a80e3e0459a94))
+
+### [0.25.0](https://github.com/inocan-group/vue3-google-map/compare/v0.24.1...v0.25.0) (2025-10-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to @googlemaps/js-api-loader v2
+
+### Features
+
+* upgrade to @googlemaps/js-api-loader v2 ([5e0ccf3](https://github.com/inocan-group/vue3-google-map/commit/5e0ccf3f3393312321d847f2dd094e32a8db74b1))
+
 ### [0.24.1](https://github.com/inocan-group/vue3-google-maps/compare/v0.24.0...v0.24.1) (2025-09-09)
 
 
